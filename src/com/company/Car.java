@@ -1,10 +1,6 @@
 package com.company;
 
 public class Car extends Vehicle implements Costable{
-    public Car(int wheelCount) {
-        super(wheelCount);
-    }
-
     private int doorsCount;
 
     public Car(int wheelCount, int doorsCount) {

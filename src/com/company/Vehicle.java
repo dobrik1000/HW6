@@ -7,9 +7,7 @@ public abstract class Vehicle {
         this.wheelCount = wheelCount;
     }
 
-    protected void printinfo() {
-        System.out.println("Вот оно, средство передвижения: " + wheelCount);
-    }
+    protected abstract void printinfo();
 
     public int getWheelCount() {
         return wheelCount;
